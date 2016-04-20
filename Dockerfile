@@ -1,6 +1,6 @@
 FROM node:4.2.3
 
-ADD ["./web-server", "/web-server"]
+ADD ["./", "/web-server"]
 WORKDIR /web-server
 RUN npm install
 
